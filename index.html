@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c91bf46735.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css" media ="screen and (max-width:768px)">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Covid 19 Tracker</title>
+</head>
+<body>
+    <section id="all">
+    <div id="container">
+        <div id="header">
+            <h1><span id = "red-clr"><i class="fas fa-virus "></i> COVID 19</span> <span class = "neon">WORLD TRACKER</span><span class ="area"> LIVE</span></span></h1>
+        </div>
+        <div id="country-icon">
+            <img src="./srikanth-d-ReUUh61x1qQ-unsplash.jpg" id="image">
+        </div>
+        <div id="name">
+            Country Name
+        </div>
+
+        <div id="box">
+            <div id="total-cases" class= "dabba">
+                <i id ="icon" class="fas fa-viruses fa-3x"></i>
+            <h3> Total Cases</h3>
+                <div id="virus-content" class="content">
+                    4328
+                </div>
+            </div>
+            <div id="Active-cases"  class= "dabba">
+                <i id ="icon" class="fas fa-procedures fa-3x"></i>
+            <h3>Active Cases</h3>
+                <div id="active-content" class="content">
+                      02934859
+                </div>
+            </div>
+            <div id="Deaths"  class= "dabba">
+                <i id ="icon" class="fas fa-skull-crossbones fa-3x"></i> 
+            <h3>Deceased</h3>
+                <div id="death-content" class="content">
+                        0294309
+                </div>
+            </div>
+            <div id="Recovered"  class= "dabba">
+                <i id ="icon" class="fas fa-medkit fa-3x"></i>
+            <h3> Recovered</h3>
+                <div id="recovered-content" class="content">
+                        49805
+                </div>
+            </div>
+        </div>
+        <div id="last">
+        <input type="button" id ="btn" value="Change Location">
+    </div>
+    </div>
+</section>
+<div class="blackra">
+    <div id="centreda">
+        <div id="popup">
+            <div id="add-country">
+                <div id="x-icon">
+                    <i id ="cutra" class="fas fa-times"></i>
+                </div>
+                <div id="something">
+                    <i id ="globe" class="fas fa-globe-americas fa-3x"></i>
+                    <!-- <label for="country" id = "boost">COUNTRY</label><br><br> -->
+                </div>
+                
+                <div id = "getit">
+                    <input type="text" placeholder="Enter Country name..." name="country" id="country"><br><br>
+                </div>
+                <div id="adei">
+                    <button type="submit" id ="submit">SUBMIT</button>
+                </div>
+            </div>
+            <ul class="list">
+                <li><b>START WITH CAPITAL LETTER (EXAMPLE: India)</b></li>
+                <li><b>IF THE NAME OF COUNTRY CONTAINS TWO PARTS IN IT, ENTER THE NAME OF COUNTRY WITH SPACE (EXAMPLE: New Zealand)</b> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="./app.js"></script>
+<script src="./data.js"></script>
+<script src="./ui.js"></script>
+</body>
+</html>

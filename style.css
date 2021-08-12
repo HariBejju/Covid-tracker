@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#red-clr{
+    color: rgb(233, 35, 35);
+    text-shadow:
+      0 0 5px rgb(168, 27, 3),
+      0 0 10px rgb(253, 48, 12),
+      0 0 20px rgb(253, 48, 12),
+      0 0 40px rgb(253, 48, 12),
+      0 0 80px rgb(248, 244, 244),
+      0 0 90px rgb(250, 249, 249),
+      0 0 100px rgb(248, 245, 244),
+      0 0 150px rgb(241, 239, 239);    
+}
+    
+
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 94px;
+}
+
+#box h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.content{
+    font-size: 30px;
+    text-align: center;
+
+}
+#box{
+    padding-top: 10px;
+   
+}
+#Recovered{
+    background-image: linear-gradient(to right, rgb(0, 128, 32),rgb(97, 223, 185));  
+}
+#Deaths{
+    background-image: linear-gradient(to right,#900603, #e2252b, #bc5449);
+}
+
+#Active-cases{
+    background-image: linear-gradient(to right,yellow,rgb(242,242,100), rgb(248, 250, 246) );
+}
+#total-cases{
+    background-image: linear-gradient(to right,rgb(219, 59, 59), orange);
+}
+#icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.dabba{
+ border-radius:20px;
+}
+
+body{
+    background: url('./martin-sanchez-j2c7yf223Mk-unsplash.jpg') center center/cover no-repeat ; 
+    height: auto;
+}
+
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+
+  h1 {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+
+#image{
+    height: 200px;
+    
+}
+
+#country-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 10px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+#something{
+    /* background-color: green; */
+    border-radius: 20px;
+    height: 50px;
+}
+
+
+.area {
+    text-align: center;
+    /* font-size: 6.5em; */
+    color: #fff;
+    /* letter-spacing: -7px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px red, 
+        0px 0px 25px red,
+        0px 0px 25px red,
+        0px 0px 25px red,
+        0px 0px 25px red,
+        0px 0px 25px red,
+        0px 0px 25px red,
+        0px 0px 50px red,
+        0px 0px 50px red,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+  
+#btn{
+      color: white;
+      background-color: blue;
+      border-radius: 10px;
+      padding:5px;
+      font-size: 1.5rem;
+}
+
+#last{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+
+}
+
+#x-icon{
+    padding-left: 500px;
+    padding-top:30px;
+    /* padding-bottom: 40px; */
+}
+
+
+.blackra{
+    display:none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#popup{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+    height: 310px;
+    width: 550px;
+    /* background-image: linear-gradient(to left,blue, red, aqua); */
+    background-image: linear-gradient(to left,#4267B2, white, #4267B2);
+    border-radius: 20px;
+}
+
+#centreda{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+    text-align: center;
+}
+
+#boost{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: green; */
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+}
+
+#getit{
+
+    padding-top:40px;
+}
+
+#country, #submit{
+    width: 340px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+#submit{
+    background-color: green;
+    color:white;
+    height: 40px;
+    font-size: 20px;
+}
+
+ /* #globe{
+     /* padding-top: 10px; 
+ } */
